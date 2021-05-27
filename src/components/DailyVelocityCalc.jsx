@@ -8,7 +8,7 @@ const DailyVelocityCalc = () => {
   const [result, setResult] = useState("0");
 
   useEffect (()=> {
-    if(days && remaining){
+    if(days > 0 && remaining > 0){
       console.log(`Days: ${days}`)
       console.log(`Remaining: ${remaining}`)
       let temp = dvCalc(remaining, days);
