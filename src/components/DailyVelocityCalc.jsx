@@ -27,7 +27,7 @@ const DailyVelocityCalc = () => {
                 <input onChange={({ target: { value } }) => setRemaining(value)} value={remaining} />
             </div>
             <div className="dvMessage">
-                <h3>{`Daily velocity is $${result}`}</h3>
+                <h3>{`Daily spending velocity is $${result}`}</h3>
                 <h4>{`for $${remaining} over ${days} days`}</h4>
             </div>
         </div>
